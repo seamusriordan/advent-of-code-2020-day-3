@@ -7,6 +7,5 @@ class TreeMap(mapInput: String) {
     fun isTree(column: Int, row: Int): Boolean {
         val wrappedColumn = column % width
         return rows[row].toCharArray()[wrappedColumn] == '#'
-
     }
 }
